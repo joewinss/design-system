@@ -1,4 +1,5 @@
-import React, { type HTMLAttributes } from 'react';
+import type React from \'react\';
+import { type HTMLAttributes } from \'react\';
 import './Card.css';
 
 interface CardProps extends HTMLAttributes<HTMLDivElement> {}
