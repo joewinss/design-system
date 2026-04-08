@@ -1,5 +1,5 @@
-import type React from \'react\';
-import { useState } from \'react\';
+import type React from 'react';
+import { useState } from 'react';
 import { Card } from './Card';
 import { Input } from './Input';
 import { Button } from './Button';
