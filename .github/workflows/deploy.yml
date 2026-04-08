@@ -2,7 +2,7 @@ name: Deploy static content to Pages
 
 on:
   push:
-    branches: ['main'] # or master, depending on your default branch
+    branches: ['design-system-test']
   workflow_dispatch:
 
 permissions:
