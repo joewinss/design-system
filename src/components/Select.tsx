@@ -1,4 +1,4 @@
-import React, { SelectHTMLAttributes, forwardRef } from 'react';
+import React, { type SelectHTMLAttributes, forwardRef } from 'react';
 import './Input.css'; // Reusing input styles for consistency
 import './Select.css'; // Additional Select specific styles
 
