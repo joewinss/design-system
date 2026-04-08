@@ -1,0 +1,17 @@
+.brand-card {
+  background-color: var(--surface);
+  border-radius: var(--radius);
+  padding: var(--spacing-8);
+  box-shadow: 0 10px 40px rgba(15, 41, 77, 0.08); /* slight secondary color shadow */
+  width: 100%;
+  max-width: 480px;
+  border: 1px solid var(--neutral-border);
+}
+
+@media (max-width: 480px) {
+  .brand-card {
+    padding: var(--spacing-5);
+    border: none;
+    box-shadow: none;
+  }
+}

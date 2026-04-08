@@ -1,0 +1,33 @@
+.brand-tabs {
+  display: flex;
+  background-color: var(--neutral-bg);
+  padding: 4px;
+  border-radius: var(--radius);
+  margin-bottom: var(--spacing-5);
+  gap: 4px;
+}
+
+.tab-item {
+  flex: 1;
+  font-family: var(--font-label);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--secondary);
+  background: transparent;
+  border: none;
+  padding: 8px 16px;
+  border-radius: calc(var(--radius) - 2px);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tab-item:hover:not(.active) {
+  background-color: rgba(15, 41, 77, 0.05); /* Slight secondary hover */
+}
+
+.tab-item.active {
+  background-color: var(--surface);
+  color: var(--primary);
+  box-shadow: 0 2px 8px rgba(15, 41, 77, 0.08); /* slight text shadow */
+  font-weight: 600;
+}
